@@ -143,8 +143,8 @@
     }
   }
 })({"1xC6H":[function(require,module,exports) {
-var Refresh = require("5d3412ab77d28378");
-var ErrorOverlay = require("6451eb5ac1cfac1d");
+var Refresh = require("6ee6e099ecd35445");
+var ErrorOverlay = require("6330984ef2399499");
 Refresh.injectIntoGlobalHook(window);
 window.$RefreshReg$ = function() {};
 window.$RefreshSig$ = function() {
@@ -163,7 +163,7 @@ window.addEventListener("parcelhmraccept", ()=>{
     ErrorOverlay.dismissRuntimeErrors();
 });
 
-},{"5d3412ab77d28378":"786KC","6451eb5ac1cfac1d":"1dldy"}],"2paN5":[function(require,module,exports) {
+},{"6ee6e099ecd35445":"786KC","6330984ef2399499":"1dldy"}],"2paN5":[function(require,module,exports) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
@@ -589,8 +589,8 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.default = void 0;
-var _react = require("e1e0341d7ad6e168");
-var _jsxRuntime = require("433d6eccccff30be");
+var _react = require("ce4ab581b5f95cd3");
+var _jsxRuntime = require("22ae7b19da93d3d0");
 const Section = ({ title , description , isVisible , setIsVisible  })=>{
     //   const [isVisible, setIsVisible] = useState(false);
     return /*#__PURE__*/ (0, _jsxRuntime.jsxs)("div", {
@@ -690,6 +690,6 @@ $RefreshReg$(_c1, "Instamart");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","e1e0341d7ad6e168":"21dqq","433d6eccccff30be":"6AEwr"}]},["1xC6H","2paN5"], null, "parcelRequire2149")
+},{"@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","ce4ab581b5f95cd3":"21dqq","22ae7b19da93d3d0":"6AEwr"}]},["1xC6H","2paN5"], null, "parcelRequire2149")
 
 //# sourceMappingURL=Instamart.0762395e.js.map

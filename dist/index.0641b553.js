@@ -143,8 +143,8 @@
     }
   }
 })({"1xC6H":[function(require,module,exports) {
-var Refresh = require("5d3412ab77d28378");
-var ErrorOverlay = require("6451eb5ac1cfac1d");
+var Refresh = require("6ee6e099ecd35445");
+var ErrorOverlay = require("6330984ef2399499");
 Refresh.injectIntoGlobalHook(window);
 window.$RefreshReg$ = function() {};
 window.$RefreshSig$ = function() {
@@ -163,11 +163,11 @@ window.addEventListener("parcelhmraccept", ()=>{
     ErrorOverlay.dismissRuntimeErrors();
 });
 
-},{"5d3412ab77d28378":"786KC","6451eb5ac1cfac1d":"1dldy"}],"786KC":[function(require,module,exports) {
+},{"6ee6e099ecd35445":"786KC","6330984ef2399499":"1dldy"}],"786KC":[function(require,module,exports) {
 "use strict";
-module.exports = require("ec2fa198aa34860a");
+module.exports = require("87b16093ca2ddbdf");
 
-},{"ec2fa198aa34860a":"hdge7"}],"hdge7":[function(require,module,exports) {
+},{"87b16093ca2ddbdf":"hdge7"}],"hdge7":[function(require,module,exports) {
 /** @license React v0.9.0
  * react-refresh-runtime.development.js
  *
@@ -628,7 +628,7 @@ module.exports = require("ec2fa198aa34860a");
 })();
 
 },{}],"1dldy":[function(require,module,exports) {
-var process = require("e3e69b9082a6d1e2");
+var process = require("1b3ecd710cc41223");
 !function(e, t) {
     module.exports = t();
 }(window, function() {
@@ -2358,7 +2358,7 @@ var process = require("e3e69b9082a6d1e2");
     ]);
 });
 
-},{"e3e69b9082a6d1e2":"d5jf4"}],"d5jf4":[function(require,module,exports) {
+},{"1b3ecd710cc41223":"d5jf4"}],"d5jf4":[function(require,module,exports) {
 // shim for using process in browser
 var process = module.exports = {};
 // cached from whatever global is present so that test runners that stub it
@@ -2925,22 +2925,22 @@ $parcel$ReactRefreshHelpers$f79a.prelude(module);
 
 try {
 "use strict";
-var _react = _interopRequireWildcard(require("291ab7673355882d"));
-var _client = _interopRequireDefault(require("5df5233b34079ad5"));
-var _Header = _interopRequireWildcard(require("740f700010a02410"));
-var _Body = _interopRequireDefault(require("e9dc6445fce26c55"));
-var _Footer = _interopRequireDefault(require("ad66c06ba962a733"));
-var _Error = _interopRequireDefault(require("af93369e4328d5df"));
-var _Contact = _interopRequireDefault(require("b153787a5c936ddf"));
-var _reactRouterDom = require("36035d865c9f640b");
-var _RestaurentMenu = _interopRequireDefault(require("bde1885155165e71"));
-var _Profile = _interopRequireDefault(require("10ccf1281cf0122d"));
-var _Shimmer = _interopRequireDefault(require("e5ae548a737cbf8a"));
-var _UserContext = _interopRequireDefault(require("5045bbb5fc8f2984"));
-var _reactRedux = require("16eb02a36602b2ef");
-var _store = _interopRequireDefault(require("d8fa13b1ddb893a8"));
-var _Cart = _interopRequireDefault(require("311dc363d3a475c2"));
-var _jsxRuntime = require("8ee9430b545c65c6");
+var _react = _interopRequireWildcard(require("bc85f5228f9705ea"));
+var _client = _interopRequireDefault(require("f721fb12cfa953bc"));
+var _Header = _interopRequireWildcard(require("3d30dbdb5c412fe8"));
+var _Body = _interopRequireDefault(require("1b3744930449c6cc"));
+var _Footer = _interopRequireDefault(require("80e2e7227fc1b137"));
+var _Error = _interopRequireDefault(require("d7d467bd1a71b57f"));
+var _Contact = _interopRequireDefault(require("b12383f4e18c7fc6"));
+var _reactRouterDom = require("1efb071e933d6215");
+var _RestaurentMenu = _interopRequireDefault(require("40ff9cc4c2e915da"));
+var _Profile = _interopRequireDefault(require("80892c22d0ff1a36"));
+var _Shimmer = _interopRequireDefault(require("987e4b2075c2fb17"));
+var _UserContext = _interopRequireDefault(require("680ae0790f4576f5"));
+var _reactRedux = require("50f6504c20f1473e");
+var _store = _interopRequireDefault(require("42c19244613bae14"));
+var _Cart = _interopRequireDefault(require("db3cb5ad31741105"));
+var _jsxRuntime = require("83a599cc72187598");
 function _interopRequireDefault(obj) {
     return obj && obj.__esModule ? obj : {
         default: obj
@@ -2975,10 +2975,10 @@ function _interopRequireWildcard(obj, nodeInterop) {
 // import Instamart from "./components/Instamart";
 //chunking or lazyloading 0r dynamic loading  or code spliting or ondemand loading or dynamic import
 const About = /*#__PURE__*/ (0, _react.lazy)(()=>Promise.resolve().then(function() {
-        return require("746524ae0391b9f4");
+        return require("5f77cc613d5560b0");
     }).then((res)=>_interopRequireWildcard(res)));
 const Instamart = /*#__PURE__*/ (0, _react.lazy)(()=>Promise.resolve().then(function() {
-        return require("ff6c9d81fe7d5579");
+        return require("f342b9e20dd6ddec");
     }).then((res)=>_interopRequireWildcard(res)));
 /*
       header
@@ -3110,9 +3110,9 @@ $RefreshReg$(_c, "AppLayout");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","ff6c9d81fe7d5579":"8HMCN","746524ae0391b9f4":"kxbq9","291ab7673355882d":"21dqq","5df5233b34079ad5":"lOjBx","740f700010a02410":"hsJbF","e9dc6445fce26c55":"8yaV8","ad66c06ba962a733":"8pPOA","af93369e4328d5df":"kvula","b153787a5c936ddf":"cgAOG","36035d865c9f640b":"9xmpe","bde1885155165e71":"cNtZy","10ccf1281cf0122d":"h0rtF","e5ae548a737cbf8a":"g6ZGj","5045bbb5fc8f2984":"kDq6i","16eb02a36602b2ef":"bdVon","311dc363d3a475c2":"h8J3U","8ee9430b545c65c6":"6AEwr","d8fa13b1ddb893a8":"h9ist"}],"km3Ru":[function(require,module,exports) {
+},{"@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","f342b9e20dd6ddec":"8HMCN","5f77cc613d5560b0":"kxbq9","bc85f5228f9705ea":"21dqq","f721fb12cfa953bc":"lOjBx","3d30dbdb5c412fe8":"hsJbF","1b3744930449c6cc":"8yaV8","80e2e7227fc1b137":"8pPOA","d7d467bd1a71b57f":"kvula","b12383f4e18c7fc6":"cgAOG","1efb071e933d6215":"9xmpe","40ff9cc4c2e915da":"cNtZy","80892c22d0ff1a36":"h0rtF","987e4b2075c2fb17":"g6ZGj","680ae0790f4576f5":"kDq6i","50f6504c20f1473e":"bdVon","db3cb5ad31741105":"h8J3U","83a599cc72187598":"6AEwr","42c19244613bae14":"h9ist"}],"km3Ru":[function(require,module,exports) {
 "use strict";
-var Refresh = require("c29247b850f8ef35");
+var Refresh = require("f58d95d67ffd32ad");
 function debounce(func, delay) {
     {
         let timeout = undefined;
@@ -3243,15 +3243,15 @@ function registerExportsForReactRefresh(module1) {
     }
 }
 
-},{"c29247b850f8ef35":"786KC"}],"8HMCN":[function(require,module,exports) {
-module.exports = require("6e4460ceb981d60b")(require("cd6d5582bafe326b").getBundleURL("lPpKD") + "Instamart.0762395e.js" + "?" + Date.now()).catch((err)=>{
+},{"f58d95d67ffd32ad":"786KC"}],"8HMCN":[function(require,module,exports) {
+module.exports = require("abf661e3b16c350")(require("f9056fdb0aa8257c").getBundleURL("lPpKD") + "Instamart.0762395e.js" + "?" + Date.now()).catch((err)=>{
     delete module.bundle.cache[module.id];
     throw err;
 }).then(()=>module.bundle.root("gB4Fs"));
 
-},{"6e4460ceb981d60b":"61B45","cd6d5582bafe326b":"lgJ39"}],"61B45":[function(require,module,exports) {
+},{"abf661e3b16c350":"61B45","f9056fdb0aa8257c":"lgJ39"}],"61B45":[function(require,module,exports) {
 "use strict";
-var cacheLoader = require("51bbddd290e33f9a");
+var cacheLoader = require("a31f54b7038f75c2");
 module.exports = cacheLoader(function(bundle) {
     return new Promise(function(resolve, reject) {
         // Don't insert the same script twice (e.g. if it was already in the HTML)
@@ -3285,7 +3285,7 @@ module.exports = cacheLoader(function(bundle) {
     });
 });
 
-},{"51bbddd290e33f9a":"j49pS"}],"j49pS":[function(require,module,exports) {
+},{"a31f54b7038f75c2":"j49pS"}],"j49pS":[function(require,module,exports) {
 "use strict";
 var cachedBundles = {};
 var cachedPreloads = {};
@@ -3346,16 +3346,16 @@ exports.getBaseURL = getBaseURL;
 exports.getOrigin = getOrigin;
 
 },{}],"kxbq9":[function(require,module,exports) {
-module.exports = require("ebb9831b1b54a92e")(require("e678ee9b535c08ec").getBundleURL("lPpKD") + "About.84db8bad.js" + "?" + Date.now()).catch((err)=>{
+module.exports = require("e8ee0d050186300e")(require("ae36a0839ef6f17e").getBundleURL("lPpKD") + "About.84db8bad.js" + "?" + Date.now()).catch((err)=>{
     delete module.bundle.cache[module.id];
     throw err;
 }).then(()=>module.bundle.root("9R1Eu"));
 
-},{"ebb9831b1b54a92e":"61B45","e678ee9b535c08ec":"lgJ39"}],"21dqq":[function(require,module,exports) {
+},{"e8ee0d050186300e":"61B45","ae36a0839ef6f17e":"lgJ39"}],"21dqq":[function(require,module,exports) {
 "use strict";
-module.exports = require("3b88a324f1f02c03");
+module.exports = require("e9d2ae5d5c7fdd3b");
 
-},{"3b88a324f1f02c03":"6YvXz"}],"6YvXz":[function(require,module,exports) {
+},{"e9d2ae5d5c7fdd3b":"6YvXz"}],"6YvXz":[function(require,module,exports) {
 /**
  * @license React
  * react.development.js
@@ -5223,7 +5223,7 @@ module.exports = require("3b88a324f1f02c03");
 
 },{}],"lOjBx":[function(require,module,exports) {
 "use strict";
-var m = require("e8ea15bfdb35764f");
+var m = require("9ecfe0d33be39526");
 var i = m.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
 exports.createRoot = function(c, o) {
     i.usingClientEntryPoint = true;
@@ -5242,7 +5242,7 @@ exports.hydrateRoot = function(c, h, o) {
     }
 };
 
-},{"e8ea15bfdb35764f":"j6uA9"}],"j6uA9":[function(require,module,exports) {
+},{"9ecfe0d33be39526":"j6uA9"}],"j6uA9":[function(require,module,exports) {
 "use strict";
 function checkDCE() {
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ === "undefined" || typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.checkDCE !== "function") return;
@@ -5256,9 +5256,9 @@ function checkDCE() {
     // a false positive.
     throw new Error("^_^");
 }
-module.exports = require("b81b80017e07ca61");
+module.exports = require("c396c63b333407cc");
 
-},{"b81b80017e07ca61":"3iA9v"}],"3iA9v":[function(require,module,exports) {
+},{"c396c63b333407cc":"3iA9v"}],"3iA9v":[function(require,module,exports) {
 /**
  * @license React
  * react-dom.development.js
@@ -5271,8 +5271,8 @@ module.exports = require("b81b80017e07ca61");
 (function() {
     "use strict";
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(new Error());
-    var React = require("91ec67f97a7157fc");
-    var Scheduler = require("9f6d9846980bd243");
+    var React = require("78dc1992043dab35");
+    var Scheduler = require("31c6e87189d6b7cd");
     var ReactSharedInternals = React.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
     var suppressWarning = false;
     function setSuppressWarning(newSuppressWarning) {
@@ -26243,11 +26243,11 @@ module.exports = require("b81b80017e07ca61");
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
 })();
 
-},{"91ec67f97a7157fc":"21dqq","9f6d9846980bd243":"juvHo"}],"juvHo":[function(require,module,exports) {
+},{"78dc1992043dab35":"21dqq","31c6e87189d6b7cd":"juvHo"}],"juvHo":[function(require,module,exports) {
 "use strict";
-module.exports = require("7aaf95858402b0b8");
+module.exports = require("898f005cc3bb2425");
 
-},{"7aaf95858402b0b8":"RqdIf"}],"RqdIf":[function(require,module,exports) {
+},{"898f005cc3bb2425":"RqdIf"}],"RqdIf":[function(require,module,exports) {
 /**
  * @license React
  * scheduler.development.js
@@ -26713,13 +26713,13 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.default = exports.Title = void 0;
-var _react = require("287e30f00bb781a9");
-var _logo = _interopRequireDefault(require("90dc444ddecac1b3"));
-var _reactRouterDom = require("3f8e425f81d91230");
-var _useOnline = _interopRequireDefault(require("dcbe0e593f7c9616"));
-var _UserContext = _interopRequireDefault(require("e9b288db5b101715"));
-var _reactRedux = require("403965274a2bd792");
-var _jsxRuntime = require("eef91a7032cf02c");
+var _react = require("dc5a3edc8aac5a99");
+var _logo = _interopRequireDefault(require("92bd71828c12b20c"));
+var _reactRouterDom = require("67884984a7a6c44b");
+var _useOnline = _interopRequireDefault(require("db57a2ddceab9dad"));
+var _UserContext = _interopRequireDefault(require("5728851e4be2b280"));
+var _reactRedux = require("4e40fec8ad212a99");
+var _jsxRuntime = require("7791be186f6016e7");
 function _interopRequireDefault(obj) {
     return obj && obj.__esModule ? obj : {
         default: obj
@@ -26735,7 +26735,7 @@ const Title = ()=>{
         children: /*#__PURE__*/ (0, _jsxRuntime.jsx)("img", {
             "data-testid": "logo",
             alt: "logo image",
-            className: "h-28 p-2",
+            className: "h-20 p-2 rounded-lg",
             src: _logo.default
         })
     });
@@ -26749,16 +26749,16 @@ const Header = ()=>{
     const cartItems = (0, _reactRedux.useSelector)((store)=>store.cart.items);
     console.log("cart", cartItems);
     return /*#__PURE__*/ (0, _jsxRuntime.jsxs)("div", {
-        className: "flex justify-between bg-pink-50 shadow-lg sm:bg-blue-50",
+        className: "flex  bg-black text-slate-100 h-20 shadow-lg",
         children: [
             /*#__PURE__*/ (0, _jsxRuntime.jsx)(Title, {}),
             /*#__PURE__*/ (0, _jsxRuntime.jsx)("div", {
-                className: "nav-items",
+                className: "nav-items ",
                 children: /*#__PURE__*/ (0, _jsxRuntime.jsxs)("ul", {
-                    className: "flex py-10",
+                    className: "flex py-7 ",
                     children: [
                         /*#__PURE__*/ (0, _jsxRuntime.jsx)("li", {
-                            className: "px-2",
+                            className: "px-4 ",
                             children: /*#__PURE__*/ (0, _jsxRuntime.jsx)(_reactRouterDom.Link, {
                                 to: "/",
                                 children: "Home"
@@ -26767,26 +26767,26 @@ const Header = ()=>{
                         /*#__PURE__*/ (0, _jsxRuntime.jsx)(_reactRouterDom.Link, {
                             to: "/about",
                             children: /*#__PURE__*/ (0, _jsxRuntime.jsx)("li", {
-                                className: "px-2",
+                                className: "px-4",
                                 children: "About"
                             })
                         }),
                         /*#__PURE__*/ (0, _jsxRuntime.jsx)("li", {
-                            className: "px-2",
+                            className: "px-4",
                             children: /*#__PURE__*/ (0, _jsxRuntime.jsx)(_reactRouterDom.Link, {
                                 to: "/Contact",
                                 children: "Contact"
                             })
                         }),
                         /*#__PURE__*/ (0, _jsxRuntime.jsx)("li", {
-                            className: "px-2",
+                            className: "px-4",
                             children: /*#__PURE__*/ (0, _jsxRuntime.jsx)(_reactRouterDom.Link, {
                                 to: "/instamart",
                                 children: "Instamart"
                             })
                         }),
                         /*#__PURE__*/ (0, _jsxRuntime.jsx)("li", {
-                            className: "px-2",
+                            className: "ml-[880px] px-4",
                             children: /*#__PURE__*/ (0, _jsxRuntime.jsxs)(_reactRouterDom.Link, {
                                 to: "/Cart",
                                 "data-testid": "cart",
@@ -26799,14 +26799,6 @@ const Header = ()=>{
                         })
                     ]
                 })
-            }),
-            /*#__PURE__*/ (0, _jsxRuntime.jsx)("h1", {
-                "data-testid": "online-status",
-                children: isOnline ? "✅" : "\uD83D\uDD34"
-            }),
-            /*#__PURE__*/ (0, _jsxRuntime.jsx)("span", {
-                className: "p-10 font-bold text-red-900",
-                children: user.name
             }),
             isLoggedIn ? /*#__PURE__*/ (0, _jsxRuntime.jsx)("button", {
                 onClick: ()=>{
@@ -26834,7 +26826,7 @@ $RefreshReg$(_c1, "Header");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"287e30f00bb781a9":"21dqq","3f8e425f81d91230":"9xmpe","dcbe0e593f7c9616":"4wJgN","e9b288db5b101715":"kDq6i","403965274a2bd792":"bdVon","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","eef91a7032cf02c":"6AEwr","90dc444ddecac1b3":"j49wx"}],"9xmpe":[function(require,module,exports) {
+},{"dc5a3edc8aac5a99":"21dqq","67884984a7a6c44b":"9xmpe","db57a2ddceab9dad":"4wJgN","5728851e4be2b280":"kDq6i","4e40fec8ad212a99":"bdVon","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","7791be186f6016e7":"6AEwr","92bd71828c12b20c":"j49wx"}],"9xmpe":[function(require,module,exports) {
 /**
  * React Router DOM v6.11.2
  *
@@ -32105,7 +32097,7 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.default = void 0;
-var _react = require("c457074fb3454a86");
+var _react = require("5711856ed9741ce4");
 const useOnline = ()=>{
     const [isOnline, setIsOnline] = (0, _react.useState)(true);
     (0, _react.useEffect)(()=>{
@@ -32132,7 +32124,7 @@ exports.default = _default;
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"c457074fb3454a86":"21dqq","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"kDq6i":[function(require,module,exports) {
+},{"5711856ed9741ce4":"21dqq","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"kDq6i":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$63b3 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -32144,7 +32136,7 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.default = void 0;
-var _react = require("e0dad119fb5b2050");
+var _react = require("1c35ce5d715c008a");
 const UserContext = /*#__PURE__*/ (0, _react.createContext)({
     user: {
         name: "Dummy Name",
@@ -32160,7 +32152,7 @@ exports.default = _default;
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","e0dad119fb5b2050":"21dqq"}],"bdVon":[function(require,module,exports) {
+},{"@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","1c35ce5d715c008a":"21dqq"}],"bdVon":[function(require,module,exports) {
 // The primary entry point assumes we're working with standard ReactDOM/RN, but
 // older versions that do not include `useSyncExternalStore` (React 16.9 - 17.x).
 // Because of that, the useSyncExternalStore compat shim is needed.
@@ -32182,9 +32174,9 @@ parcelHelpers.exportAll(_exports, exports);
 
 },{"use-sync-external-store/shim":"hyxdF","use-sync-external-store/shim/with-selector":"iDrhg","./utils/reactBatchedUpdates":"5K86X","./utils/batch":"ikw0G","./hooks/useSelector":"l3rFI","./components/connect":"5gOIw","./exports":"iAa1P","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"hyxdF":[function(require,module,exports) {
 "use strict";
-module.exports = require("ba156456e47c236a");
+module.exports = require("c4cc20c34f0a3b7d");
 
-},{"ba156456e47c236a":"khU3l"}],"khU3l":[function(require,module,exports) {
+},{"c4cc20c34f0a3b7d":"khU3l"}],"khU3l":[function(require,module,exports) {
 /**
  * @license React
  * use-sync-external-store-shim.development.js
@@ -32197,7 +32189,7 @@ module.exports = require("ba156456e47c236a");
 (function() {
     "use strict";
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(new Error());
-    var React = require("478cd91157636d46");
+    var React = require("1ebfa3a1cd2db3c9");
     var ReactSharedInternals = React.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
     function error(format) {
         for(var _len2 = arguments.length, args = new Array(_len2 > 1 ? _len2 - 1 : 0), _key2 = 1; _key2 < _len2; _key2++)args[_key2 - 1] = arguments[_key2];
@@ -32349,11 +32341,11 @@ module.exports = require("ba156456e47c236a");
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
 })();
 
-},{"478cd91157636d46":"21dqq"}],"iDrhg":[function(require,module,exports) {
+},{"1ebfa3a1cd2db3c9":"21dqq"}],"iDrhg":[function(require,module,exports) {
 "use strict";
-module.exports = require("4c632e3c1d8c5c0c");
+module.exports = require("1fd98cadca0d08ac");
 
-},{"4c632e3c1d8c5c0c":"vU6Qe"}],"vU6Qe":[function(require,module,exports) {
+},{"1fd98cadca0d08ac":"vU6Qe"}],"vU6Qe":[function(require,module,exports) {
 /**
  * @license React
  * use-sync-external-store-shim/with-selector.development.js
@@ -32366,8 +32358,8 @@ module.exports = require("4c632e3c1d8c5c0c");
 (function() {
     "use strict";
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(new Error());
-    var React = require("90095a26283061b3");
-    var shim = require("2fc0aa35b3e440c2");
+    var React = require("8f9b8dc29144791c");
+    var shim = require("a58cd748ca7756d0");
     /**
  * inlined Object.is polyfill to avoid requiring consumers ship their own
  * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is
@@ -32471,7 +32463,7 @@ module.exports = require("4c632e3c1d8c5c0c");
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
 })();
 
-},{"90095a26283061b3":"21dqq","2fc0aa35b3e440c2":"hyxdF"}],"5K86X":[function(require,module,exports) {
+},{"8f9b8dc29144791c":"21dqq","a58cd748ca7756d0":"hyxdF"}],"5K86X":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "unstable_batchedUpdates", ()=>(0, _reactDom.unstable_batchedUpdates));
@@ -32967,7 +32959,7 @@ exports.default = _objectWithoutPropertiesLoose;
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"1GfsB":[function(require,module,exports) {
 "use strict";
-var reactIs = require("a57b63c5e7b1ca31");
+var reactIs = require("4b3f80c3d7a939df");
 /**
  * Copyright 2015, Yahoo! Inc.
  * Copyrights licensed under the New BSD License. See the accompanying LICENSE file for terms.
@@ -33049,11 +33041,11 @@ function hoistNonReactStatics(targetComponent, sourceComponent, blacklist) {
 }
 module.exports = hoistNonReactStatics;
 
-},{"a57b63c5e7b1ca31":"8V70c"}],"8V70c":[function(require,module,exports) {
+},{"4b3f80c3d7a939df":"8V70c"}],"8V70c":[function(require,module,exports) {
 "use strict";
-module.exports = require("126e85d5735f3474");
+module.exports = require("2b1f4d64c74afe64");
 
-},{"126e85d5735f3474":"drjfK"}],"drjfK":[function(require,module,exports) {
+},{"2b1f4d64c74afe64":"drjfK"}],"drjfK":[function(require,module,exports) {
 /** @license React v16.13.1
  * react-is.development.js
  *
@@ -33212,9 +33204,9 @@ module.exports = require("126e85d5735f3474");
 
 },{}],"7EuwB":[function(require,module,exports) {
 "use strict";
-module.exports = require("cf30baeb55a196a5");
+module.exports = require("88a8a73dba8bef22");
 
-},{"cf30baeb55a196a5":"5DsXl"}],"5DsXl":[function(require,module,exports) {
+},{"88a8a73dba8bef22":"5DsXl"}],"5DsXl":[function(require,module,exports) {
 /**
  * @license React
  * react-is.development.js
@@ -33928,9 +33920,9 @@ parcelHelpers.defineInteropFlag(exports);
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"6AEwr":[function(require,module,exports) {
 "use strict";
-module.exports = require("54ce81a439a79d9e");
+module.exports = require("24b0ff7cdf8fea35");
 
-},{"54ce81a439a79d9e":"kujY4"}],"kujY4":[function(require,module,exports) {
+},{"24b0ff7cdf8fea35":"kujY4"}],"kujY4":[function(require,module,exports) {
 /**
  * @license React
  * react-jsx-runtime.development.js
@@ -33942,7 +33934,7 @@ module.exports = require("54ce81a439a79d9e");
  */ "use strict";
 (function() {
     "use strict";
-    var React = require("7fd5ead35315d071");
+    var React = require("255047aedbb16ef6");
     // ATTENTION
     // When adding new symbols to this file,
     // Please consider also adding to 'react-devtools-shared/src/backend/ReactSymbols'
@@ -34773,10 +34765,10 @@ module.exports = require("54ce81a439a79d9e");
     exports.jsxs = jsxs;
 })();
 
-},{"7fd5ead35315d071":"21dqq"}],"j49wx":[function(require,module,exports) {
-module.exports = require("4c92f669f26d636a").getBundleURL("lPpKD") + "logo.d4f8fe33.png" + "?" + Date.now();
+},{"255047aedbb16ef6":"21dqq"}],"j49wx":[function(require,module,exports) {
+module.exports = require("b499f71e5ad482ca").getBundleURL("lPpKD") + "logo.d4f8fe33.png" + "?" + Date.now();
 
-},{"4c92f669f26d636a":"lgJ39"}],"8yaV8":[function(require,module,exports) {
+},{"b499f71e5ad482ca":"lgJ39"}],"8yaV8":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$0606 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -34788,15 +34780,15 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.default = void 0;
-var _react = require("35c551a8154f9f79");
-var _contants = require("832d17d34a07be5c");
-var _RestaurentCard = _interopRequireDefault(require("86190cd57b61dea1"));
-var _Shimmer = _interopRequireDefault(require("6b0eb196ead80d61"));
-var _reactRouterDom = require("e861051e67bce7e0");
-var _Helper = require("cdfb32b992a00e2");
-var _useOnline = _interopRequireDefault(require("6c40d9c7ca8a908b"));
-var _UserContext = _interopRequireDefault(require("882c42bba4feddea"));
-var _jsxRuntime = require("f51f4205ba2b41ea");
+var _react = require("8ebf716ae84a1eb0");
+var _contants = require("566399f3d1742a4f");
+var _RestaurentCard = _interopRequireDefault(require("bec7a723389843f3"));
+var _Shimmer = _interopRequireDefault(require("cc1da0a14aa7455a"));
+var _reactRouterDom = require("51a7313b68a62680");
+var _Helper = require("bd195c91a1e2a4a7");
+var _useOnline = _interopRequireDefault(require("e4e4e4974d157ca6"));
+var _UserContext = _interopRequireDefault(require("3d2d9d2d0feb29fe"));
+var _jsxRuntime = require("25fecc3c412ed16f");
 function _interopRequireDefault(obj) {
     return obj && obj.__esModule ? obj : {
         default: obj
@@ -34854,24 +34846,6 @@ const Body = ()=>{
                             setFilteredRestaurents(data);
                         },
                         children: "Search"
-                    }),
-                    /*#__PURE__*/ (0, _jsxRuntime.jsx)("input", {
-                        value: user.name,
-                        onChange: (e)=>{
-                            setUser({
-                                ...user,
-                                name: e.target.value
-                            });
-                        }
-                    }),
-                    /*#__PURE__*/ (0, _jsxRuntime.jsx)("input", {
-                        value: user.email,
-                        onChange: (e)=>{
-                            setUser({
-                                ...user,
-                                email: e.target.value
-                            });
-                        }
                     })
                 ]
             }),
@@ -34901,7 +34875,7 @@ $RefreshReg$(_c, "Body");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"35c551a8154f9f79":"21dqq","832d17d34a07be5c":"6xi3Y","86190cd57b61dea1":"4evSW","6b0eb196ead80d61":"g6ZGj","e861051e67bce7e0":"9xmpe","cdfb32b992a00e2":"jGK8e","6c40d9c7ca8a908b":"4wJgN","882c42bba4feddea":"kDq6i","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","f51f4205ba2b41ea":"6AEwr"}],"6xi3Y":[function(require,module,exports) {
+},{"8ebf716ae84a1eb0":"21dqq","566399f3d1742a4f":"6xi3Y","bec7a723389843f3":"4evSW","cc1da0a14aa7455a":"g6ZGj","51a7313b68a62680":"9xmpe","bd195c91a1e2a4a7":"jGK8e","e4e4e4974d157ca6":"4wJgN","3d2d9d2d0feb29fe":"kDq6i","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","25fecc3c412ed16f":"6AEwr"}],"6xi3Y":[function(require,module,exports) {
 "use strict";
 Object.defineProperty(exports, "__esModule", {
     value: true
@@ -35704,10 +35678,10 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.default = void 0;
-var _react = require("2bf0adf4dcdaf187");
-var _contants = require("3764da0e9dbea7ae");
-var _UserContext = _interopRequireDefault(require("36fba3ad87dc8fc3"));
-var _jsxRuntime = require("9fe3768dcff64989");
+var _react = require("f2cf9d66052c7134");
+var _contants = require("57cdc0b8ff88245d");
+var _UserContext = _interopRequireDefault(require("6a447eeefbf565f"));
+var _jsxRuntime = require("7a018f5dc0170c66");
 function _interopRequireDefault(obj) {
     return obj && obj.__esModule ? obj : {
         default: obj
@@ -35777,7 +35751,7 @@ $RefreshReg$(_c, "RestaurentCard");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"2bf0adf4dcdaf187":"21dqq","3764da0e9dbea7ae":"6xi3Y","36fba3ad87dc8fc3":"kDq6i","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","9fe3768dcff64989":"6AEwr"}],"g6ZGj":[function(require,module,exports) {
+},{"f2cf9d66052c7134":"21dqq","57cdc0b8ff88245d":"6xi3Y","6a447eeefbf565f":"kDq6i","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","7a018f5dc0170c66":"6AEwr"}],"g6ZGj":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$0b04 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -35789,7 +35763,7 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.default = void 0;
-var _jsxRuntime = require("632ed64e2ee187b2");
+var _jsxRuntime = require("1989e8688a1a0fca");
 const Shimmer = ()=>{
     return /*#__PURE__*/ (0, _jsxRuntime.jsx)("div", {
         className: "w-56 p-2 m-2 shadow-lg bg-yellow-50 h-76",
@@ -35810,7 +35784,7 @@ $RefreshReg$(_c, "Shimmer");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","632ed64e2ee187b2":"6AEwr"}],"jGK8e":[function(require,module,exports) {
+},{"@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","1989e8688a1a0fca":"6AEwr"}],"jGK8e":[function(require,module,exports) {
 "use strict";
 Object.defineProperty(exports, "__esModule", {
     value: true
@@ -35833,9 +35807,9 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.default = void 0;
-var _react = require("f0a5a306e8262002");
-var _UserContext = _interopRequireDefault(require("c8018cf363e25ce2"));
-var _jsxRuntime = require("c592d94af5350906");
+var _react = require("3367ca01dccd5085");
+var _UserContext = _interopRequireDefault(require("7a6dfaad346b469b"));
+var _jsxRuntime = require("4efd1b7c2ded067c");
 function _interopRequireDefault(obj) {
     return obj && obj.__esModule ? obj : {
         default: obj
@@ -35843,14 +35817,9 @@ function _interopRequireDefault(obj) {
 }
 const Footer = ()=>{
     const { user  } = (0, _react.useContext)(_UserContext.default);
-    return /*#__PURE__*/ (0, _jsxRuntime.jsxs)("h4", {
+    return /*#__PURE__*/ (0, _jsxRuntime.jsx)("h4", {
         className: "font-bold p-10 m-10 space-x-7",
-        children: [
-            user.name,
-            "-",
-            user.email,
-            " Food Villa @2023 All Rights Reserved."
-        ]
+        children: "Food Villa @2023 All Rights Reserved."
     });
 };
 _c = Footer;
@@ -35864,7 +35833,7 @@ $RefreshReg$(_c, "Footer");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"f0a5a306e8262002":"21dqq","c8018cf363e25ce2":"kDq6i","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","c592d94af5350906":"6AEwr"}],"kvula":[function(require,module,exports) {
+},{"3367ca01dccd5085":"21dqq","7a6dfaad346b469b":"kDq6i","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","4efd1b7c2ded067c":"6AEwr"}],"kvula":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$0ba4 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -35876,8 +35845,8 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.default = void 0;
-var _reactRouterDom = require("b14cc7ea69a6d21a");
-var _jsxRuntime = require("e8467992f9f81d55");
+var _reactRouterDom = require("e005f143ff2fd9fc");
+var _jsxRuntime = require("69a0095cf54786c6");
 const Error = ()=>{
     const err = (0, _reactRouterDom.useRouteError)();
     console.log(err);
@@ -35906,7 +35875,7 @@ $RefreshReg$(_c, "Error");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"b14cc7ea69a6d21a":"9xmpe","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","e8467992f9f81d55":"6AEwr"}],"cgAOG":[function(require,module,exports) {
+},{"e005f143ff2fd9fc":"9xmpe","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","69a0095cf54786c6":"6AEwr"}],"cgAOG":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$ee46 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -35918,7 +35887,7 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.default = void 0;
-var _jsxRuntime = require("af6f016c1c49b190");
+var _jsxRuntime = require("b4a2eb41d8155311");
 const Contact = ()=>{
     return /*#__PURE__*/ (0, _jsxRuntime.jsx)("h1", {
         children: "This is a Contact us page"
@@ -35935,7 +35904,7 @@ $RefreshReg$(_c, "Contact");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","af6f016c1c49b190":"6AEwr"}],"cNtZy":[function(require,module,exports) {
+},{"@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","b4a2eb41d8155311":"6AEwr"}],"cNtZy":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$8d58 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -35947,14 +35916,14 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.default = void 0;
-var _react = require("5eb92592cd995f0d");
-var _reactRouterDom = require("11079d36d9a40131");
-var _contants = require("bdbc6be08ce93c9f");
-var _Shimmer = _interopRequireDefault(require("87ca80d0e4afd56a"));
-var _useRestaurent = _interopRequireDefault(require("2fbaaebaddf3cecd"));
-var _cartSlice = require("44573ec9ba220247");
-var _reactRedux = require("f16ff9d323299918");
-var _jsxRuntime = require("a9cb73efb533ec13");
+var _react = require("d7e5eee013991179");
+var _reactRouterDom = require("3e673a77dc1d1b9");
+var _contants = require("f3d69f5e71dc7b9c");
+var _Shimmer = _interopRequireDefault(require("e0c0320279bc5af6"));
+var _useRestaurent = _interopRequireDefault(require("ba7294496b16c6e8"));
+var _cartSlice = require("d2940ed58eed9881");
+var _reactRedux = require("7143f271cd913a47");
+var _jsxRuntime = require("f30682c2e8855ab9");
 function _interopRequireDefault(obj) {
     return obj && obj.__esModule ? obj : {
         default: obj
@@ -36052,7 +36021,7 @@ $RefreshReg$(_c, "RestaurentMenu");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"5eb92592cd995f0d":"21dqq","11079d36d9a40131":"9xmpe","bdbc6be08ce93c9f":"6xi3Y","87ca80d0e4afd56a":"g6ZGj","2fbaaebaddf3cecd":"4CtoT","44573ec9ba220247":"7e2Px","f16ff9d323299918":"bdVon","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","a9cb73efb533ec13":"6AEwr"}],"4CtoT":[function(require,module,exports) {
+},{"d7e5eee013991179":"21dqq","3e673a77dc1d1b9":"9xmpe","f3d69f5e71dc7b9c":"6xi3Y","e0c0320279bc5af6":"g6ZGj","ba7294496b16c6e8":"4CtoT","d2940ed58eed9881":"7e2Px","7143f271cd913a47":"bdVon","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","f30682c2e8855ab9":"6AEwr"}],"4CtoT":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$a79e = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -36064,8 +36033,8 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.default = void 0;
-var _react = require("62ca12897c8182bd");
-var _contants = require("ffce90eb28d7939");
+var _react = require("61eb04875ab24854");
+var _contants = require("f598c409d7348e74");
 const useRestaurent = (resId)=>{
     const [restaurents, setRestaurents] = (0, _react.useState)(null);
     //get data from api
@@ -36090,13 +36059,13 @@ exports.default = _default;
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"62ca12897c8182bd":"21dqq","ffce90eb28d7939":"6xi3Y","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"7e2Px":[function(require,module,exports) {
+},{"61eb04875ab24854":"21dqq","f598c409d7348e74":"6xi3Y","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"7e2Px":[function(require,module,exports) {
 "use strict";
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.removeItem = exports.default = exports.clearCart = exports.addItem = void 0;
-var _toolkit = require("200ce4e5263f5033");
+var _toolkit = require("2d6aff4d67898ace");
 const cartSlice = (0, _toolkit.createSlice)({
     name: "cart",
     initialState: {
@@ -36121,7 +36090,7 @@ exports.addItem = addItem;
 var _default = cartSlice.reducer;
 exports.default = _default;
 
-},{"200ce4e5263f5033":"lL1Ef"}],"lL1Ef":[function(require,module,exports) {
+},{"2d6aff4d67898ace":"lL1Ef"}],"lL1Ef":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "EnhancerArray", ()=>EnhancerArray);
@@ -36176,8 +36145,8 @@ var _reselect = require("reselect");
 // src/getDefaultMiddleware.ts
 var _reduxThunk = require("redux-thunk");
 var _reduxThunkDefault = parcelHelpers.interopDefault(_reduxThunk);
-var process = require("f369fd3f9abde248");
 var global = arguments[3];
+var process = require("c0233e6882105bbc");
 var __extends = undefined && undefined.__extends || function() {
     var extendStatics = function(d, b) {
         extendStatics = Object.setPrototypeOf || ({
@@ -38223,7 +38192,7 @@ var autoBatchEnhancer = function(options) {
 // src/index.ts
 (0, _immer.enableES5)();
 
-},{"f369fd3f9abde248":"d5jf4","immer":"4sfoz","redux":"cDNB3","reselect":"isIsC","redux-thunk":"iFVTZ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"4sfoz":[function(require,module,exports) {
+},{"c0233e6882105bbc":"d5jf4","immer":"4sfoz","redux":"cDNB3","reselect":"isIsC","redux-thunk":"iFVTZ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"4sfoz":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "Immer", ()=>un);
@@ -40007,8 +39976,8 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.default = void 0;
-var _react = require("30ce18014d4945d6");
-var _jsxRuntime = require("b9f51d4cfc01f1dd");
+var _react = require("4109b86670f124fb");
+var _jsxRuntime = require("ee5c8ae442f82271");
 const Profile = (props)=>{
     const [count, setCount] = (0, _react.useState)(0);
     // const [count2] = useState(0);
@@ -40060,7 +40029,7 @@ $RefreshReg$(_c, "Profile");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","30ce18014d4945d6":"21dqq","b9f51d4cfc01f1dd":"6AEwr"}],"h8J3U":[function(require,module,exports) {
+},{"@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","4109b86670f124fb":"21dqq","ee5c8ae442f82271":"6AEwr"}],"h8J3U":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$ad24 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -40072,10 +40041,10 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.default = void 0;
-var _reactRedux = require("52393634ac4331d1");
-var _FoodItem = _interopRequireDefault(require("a3a0e1754ae0de29"));
-var _cartSlice = require("eb0c5bdbe2398254");
-var _jsxRuntime = require("b90af7f52acc3021");
+var _reactRedux = require("c658d0c595500d27");
+var _FoodItem = _interopRequireDefault(require("37355120c69510e"));
+var _cartSlice = require("410ed1f9eb0ebddc");
+var _jsxRuntime = require("e919f2aa72408d13");
 function _interopRequireDefault(obj) {
     return obj && obj.__esModule ? obj : {
         default: obj
@@ -40122,7 +40091,7 @@ $RefreshReg$(_c, "Cart");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"52393634ac4331d1":"bdVon","a3a0e1754ae0de29":"9xltm","eb0c5bdbe2398254":"7e2Px","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","b90af7f52acc3021":"6AEwr"}],"9xltm":[function(require,module,exports) {
+},{"c658d0c595500d27":"bdVon","37355120c69510e":"9xltm","410ed1f9eb0ebddc":"7e2Px","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","e919f2aa72408d13":"6AEwr"}],"9xltm":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$8f2a = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -40134,8 +40103,8 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.default = void 0;
-var _contants = require("9f4a94d2cfb7929");
-var _jsxRuntime = require("3a6d505b04c202e5");
+var _contants = require("d3a0351c4e188431");
+var _jsxRuntime = require("530eb49870f47cb4");
 const FoodItem = ({ cloudinaryImageId , name , category , price , type  })=>{
     // const { } = restaurent;
     return /*#__PURE__*/ (0, _jsxRuntime.jsxs)("div", {
@@ -40179,14 +40148,14 @@ $RefreshReg$(_c, "FoodItem");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"9f4a94d2cfb7929":"6xi3Y","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","3a6d505b04c202e5":"6AEwr"}],"h9ist":[function(require,module,exports) {
+},{"d3a0351c4e188431":"6xi3Y","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","530eb49870f47cb4":"6AEwr"}],"h9ist":[function(require,module,exports) {
 "use strict";
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.default = void 0;
-var _toolkit = require("b9a338e8587e1731");
-var _cartSlice = _interopRequireDefault(require("22cfe7f78d745e98"));
+var _toolkit = require("d87c0bf327365254");
+var _cartSlice = _interopRequireDefault(require("86c9f113cea8b1cd"));
 function _interopRequireDefault(obj) {
     return obj && obj.__esModule ? obj : {
         default: obj
@@ -40200,6 +40169,6 @@ const store = (0, _toolkit.configureStore)({
 var _default = store;
 exports.default = _default;
 
-},{"b9a338e8587e1731":"lL1Ef","22cfe7f78d745e98":"7e2Px"}]},["1xC6H","lKzq4","bNKaB"], "bNKaB", "parcelRequire2149")
+},{"d87c0bf327365254":"lL1Ef","86c9f113cea8b1cd":"7e2Px"}]},["1xC6H","lKzq4","bNKaB"], "bNKaB", "parcelRequire2149")
 
 //# sourceMappingURL=index.0641b553.js.map
