@@ -26735,7 +26735,7 @@ const Title = ()=>{
         children: /*#__PURE__*/ (0, _jsxRuntime.jsx)("img", {
             "data-testid": "logo",
             alt: "logo image",
-            className: "h-20 p-2 rounded-lg",
+            className: "h-20 p-2 pl-10 rounded-lg",
             src: _logo.default
         })
     });
@@ -26749,13 +26749,13 @@ const Header = ()=>{
     const cartItems = (0, _reactRedux.useSelector)((store)=>store.cart.items);
     console.log("cart", cartItems);
     return /*#__PURE__*/ (0, _jsxRuntime.jsxs)("div", {
-        className: "flex  bg-black text-slate-100 h-20 shadow-lg",
+        className: "flex bg-gradient-to-r from-slate-950 to-blue-950 text-slate-100 h-20 shadow-lg",
         children: [
             /*#__PURE__*/ (0, _jsxRuntime.jsx)(Title, {}),
             /*#__PURE__*/ (0, _jsxRuntime.jsx)("div", {
                 className: "nav-items ",
                 children: /*#__PURE__*/ (0, _jsxRuntime.jsxs)("ul", {
-                    className: "flex py-7 ",
+                    className: "flex py-7",
                     children: [
                         /*#__PURE__*/ (0, _jsxRuntime.jsx)("li", {
                             className: "px-4 ",
@@ -26786,7 +26786,7 @@ const Header = ()=>{
                             })
                         }),
                         /*#__PURE__*/ (0, _jsxRuntime.jsx)("li", {
-                            className: "ml-[880px] px-4",
+                            className: "ml-[840px] px-4",
                             children: /*#__PURE__*/ (0, _jsxRuntime.jsxs)(_reactRouterDom.Link, {
                                 to: "/Cart",
                                 "data-testid": "cart",
@@ -34819,49 +34819,52 @@ const Body = ()=>{
     if (!allRestaurents) return null;
     // if(filteredRestaurents?.length == 0)
     //   return <h1>No Result Found With Your Filter !!!</h1>
-    return allRestaurents?.length == 0 ? /*#__PURE__*/ (0, _jsxRuntime.jsx)(_Shimmer.default, {}) : /*#__PURE__*/ (0, _jsxRuntime.jsxs)(_jsxRuntime.Fragment, {
-        children: [
-            /*#__PURE__*/ (0, _jsxRuntime.jsxs)("div", {
-                className: "search-container p-5 bg-green-100 my-5",
-                children: [
-                    /*#__PURE__*/ (0, _jsxRuntime.jsx)("input", {
-                        "data-testId": "search-input",
-                        type: "text",
-                        placeholder: "Search The Restaurent",
-                        className: "focus:bg-pink-100 m-2 p-2",
-                        value: searchInput,
-                        onChange: (e)=>{
-                            setSearchInput(e.target.value);
-                        }
-                    }),
-                    /*#__PURE__*/ (0, _jsxRuntime.jsx)("button", {
-                        "data-testid": "search-btn",
-                        className: "search-btn p-2 m-2 bg-purple-900  hover:bg-gray-500 text-white rounded-md",
-                        onClick: ()=>{
-                            //filter data
-                            // console.log("searchInput===>",searchInput)
-                            const data = (0, _Helper.filterData)(searchInput, allRestaurents);
-                            //update the state-restaurents
-                            // console.log("filter data ===>",data)
-                            setFilteredRestaurents(data);
-                        },
-                        children: "Search"
-                    })
-                ]
-            }),
-            /*#__PURE__*/ (0, _jsxRuntime.jsx)("div", {
-                className: "flex flex-wrap",
-                "data-testid": "res-list",
-                children: filteredRestaurents.map((restaurent)=>{
-                    return /*#__PURE__*/ (0, _jsxRuntime.jsx)(_reactRouterDom.Link, {
-                        to: "/restaurent/" + restaurent.data.id,
-                        children: /*#__PURE__*/ (0, _jsxRuntime.jsx)(_RestaurentCard.default, {
-                            ...restaurent.data
+    return allRestaurents?.length == 0 ? /*#__PURE__*/ (0, _jsxRuntime.jsx)(_Shimmer.default, {}) : /*#__PURE__*/ (0, _jsxRuntime.jsx)(_jsxRuntime.Fragment, {
+        children: /*#__PURE__*/ (0, _jsxRuntime.jsxs)("div", {
+            className: "bg-gradient-to-r from-slate-900 to-blue-950",
+            children: [
+                /*#__PURE__*/ (0, _jsxRuntime.jsxs)("div", {
+                    className: "ml-5 ",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxRuntime.jsx)("input", {
+                            "data-testId": "search-input",
+                            type: "text",
+                            placeholder: "Search the Restaurent",
+                            className: " m-2 p-2 w-80 rounded-md border border-black ml-5",
+                            value: searchInput,
+                            onChange: (e)=>{
+                                setSearchInput(e.target.value);
+                            }
+                        }),
+                        /*#__PURE__*/ (0, _jsxRuntime.jsx)("button", {
+                            "data-testid": "search-btn",
+                            className: "search-btn p-2 m-2 bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 rounded-md",
+                            onClick: ()=>{
+                                //filter data
+                                // console.log("searchInput===>",searchInput)
+                                const data = (0, _Helper.filterData)(searchInput, allRestaurents);
+                                //update the state-restaurents
+                                // console.log("filter data ===>",data)
+                                setFilteredRestaurents(data);
+                            },
+                            children: "Search"
                         })
-                    }, restaurent.data.id);
+                    ]
+                }),
+                /*#__PURE__*/ (0, _jsxRuntime.jsx)("div", {
+                    className: "flex flex-wrap ml-8",
+                    "data-testid": "res-list",
+                    children: filteredRestaurents.map((restaurent)=>{
+                        return /*#__PURE__*/ (0, _jsxRuntime.jsx)(_reactRouterDom.Link, {
+                            to: "/restaurent/" + restaurent.data.id,
+                            children: /*#__PURE__*/ (0, _jsxRuntime.jsx)(_RestaurentCard.default, {
+                                ...restaurent.data
+                            })
+                        }, restaurent.data.id);
+                    })
                 })
-            })
-        ]
+            ]
+        })
     });
 };
 _c = Body;
@@ -35691,7 +35694,7 @@ const RestaurentCard = ({ cloudinaryImageId , name , cuisines , deliveryTime , c
     // const { } = restaurent;
     const { user  } = (0, _react.useContext)(_UserContext.default);
     return /*#__PURE__*/ (0, _jsxRuntime.jsxs)("div", {
-        className: "w-56 p-2 m-2 shadow-lg bg-yellow-50 h-76",
+        className: "w-56 p-2 m-2 shadow-lg bg-slate-100 h-80 rounded-md",
         children: [
             /*#__PURE__*/ (0, _jsxRuntime.jsx)("img", {
                 className: "res-logo",
@@ -35699,10 +35702,11 @@ const RestaurentCard = ({ cloudinaryImageId , name , cuisines , deliveryTime , c
                 src: _contants.CDN_URL + cloudinaryImageId
             }),
             /*#__PURE__*/ (0, _jsxRuntime.jsx)("h3", {
-                className: "font-bold text-2xl",
+                className: "font-bold text-2xl line-clamp-2",
                 children: name
             }),
             /*#__PURE__*/ (0, _jsxRuntime.jsx)("h4", {
+                className: "line-clamp-2",
                 children: cuisines.join(", ")
             }),
             /*#__PURE__*/ (0, _jsxRuntime.jsxs)("h4", {
@@ -35721,15 +35725,7 @@ const RestaurentCard = ({ cloudinaryImageId , name , cuisines , deliveryTime , c
             /*#__PURE__*/ (0, _jsxRuntime.jsxs)("h4", {
                 children: [
                     deliveryTime,
-                    " minutes"
-                ]
-            }),
-            /*#__PURE__*/ (0, _jsxRuntime.jsxs)("h5", {
-                className: "font-bold",
-                children: [
-                    user.name,
-                    "-",
-                    user.email
+                    " MINS"
                 ]
             })
         ]
@@ -35768,7 +35764,7 @@ const Shimmer = ()=>{
     return /*#__PURE__*/ (0, _jsxRuntime.jsx)("div", {
         className: "w-56 p-2 m-2 shadow-lg bg-yellow-50 h-76",
         "data-testid": "shimmer",
-        children: Array(12).fill(" ").map((e, index)=>/*#__PURE__*/ (0, _jsxRuntime.jsx)("div", {
+        children: Array(15).fill(" ").map((e, index)=>/*#__PURE__*/ (0, _jsxRuntime.jsx)("div", {
                 className: "bg-green-200 h-76 shadow-lg"
             }, index))
     });
@@ -35818,7 +35814,7 @@ function _interopRequireDefault(obj) {
 const Footer = ()=>{
     const { user  } = (0, _react.useContext)(_UserContext.default);
     return /*#__PURE__*/ (0, _jsxRuntime.jsx)("h4", {
-        className: "font-bold p-10 m-10 space-x-7",
+        className: "font-bold p-5 text-center space-x-7 text-slate-200 bg-gradient-to-r from-slate-950 to-blue-950 ",
         children: "Food Villa @2023 All Rights Reserved."
     });
 };
@@ -35948,20 +35944,17 @@ const RestaurentMenu = ()=>{
     //   return <Shimmer />;
     // }
     return !restaurents ? /*#__PURE__*/ (0, _jsxRuntime.jsx)(_Shimmer.default, {}) : /*#__PURE__*/ (0, _jsxRuntime.jsxs)("div", {
-        className: "flex",
+        className: "flex bg-gradient-to-r from-slate-950 to-blue-950 text-slate-100",
         children: [
             /*#__PURE__*/ (0, _jsxRuntime.jsxs)("div", {
+                className: "ml-10",
                 children: [
-                    /*#__PURE__*/ (0, _jsxRuntime.jsxs)("h1", {
-                        children: [
-                            "Restaurent id : ",
-                            resId
-                        ]
-                    }),
                     /*#__PURE__*/ (0, _jsxRuntime.jsx)("h2", {
-                        children: restaurents.name
+                        className: "font-bold text-3xl text-center py-3 ",
+                        children: restaurents.cards[0].card.card.info.name
                     }),
                     /*#__PURE__*/ (0, _jsxRuntime.jsx)("img", {
+                        className: "border border-black rounded-md",
                         src: _contants.CDN_URL + restaurents.cards[0].card.card.info.cloudinaryImageId
                     }),
                     /*#__PURE__*/ (0, _jsxRuntime.jsx)("h3", {
@@ -35979,7 +35972,7 @@ const RestaurentMenu = ()=>{
                     /*#__PURE__*/ (0, _jsxRuntime.jsxs)("h3", {
                         children: [
                             restaurents.cards[0].card.card.info.costForTwoMessage,
-                            " Stars"
+                            " Items"
                         ]
                     })
                 ]
@@ -35988,17 +35981,20 @@ const RestaurentMenu = ()=>{
                 className: "p-5",
                 children: [
                     /*#__PURE__*/ (0, _jsxRuntime.jsx)("h1", {
-                        children: "Menu"
+                        className: "font-bold text-xl pt-8",
+                        children: "Menu:"
                     }),
                     /*#__PURE__*/ (0, _jsxRuntime.jsx)("ul", {
                         "data-testid": "menu",
+                        className: "grid grid-cols-2 gap-x-10",
                         children: Object.values(restaurents?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR?.cards[4]?.card?.card?.itemCards).map((item)=>/*#__PURE__*/ (0, _jsxRuntime.jsxs)("li", {
+                                className: "pt-2",
                                 children: [
                                     item?.card?.info?.name,
                                     " - ",
                                     /*#__PURE__*/ (0, _jsxRuntime.jsx)("button", {
                                         "data-testid": "addBtn",
-                                        className: "p-1 bg-green-300",
+                                        className: "p-1 bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 rounded-md",
                                         onClick: ()=>addFoodItem(item),
                                         children: "Add"
                                     })
@@ -40058,16 +40054,17 @@ const Cart = ()=>{
     };
     console.log("cart ", cartItems);
     return /*#__PURE__*/ (0, _jsxRuntime.jsxs)("div", {
+        className: "bg-gradient-to-r from-slate-900 to-blue-950 text-slate-100",
         children: [
             /*#__PURE__*/ (0, _jsxRuntime.jsxs)("h1", {
-                className: "font-bold text-3xl",
+                className: "font-bold text-3xl ml-10 py-2",
                 children: [
-                    "Cart items -",
+                    "Cart items - ",
                     cartItems.length
                 ]
             }),
             /*#__PURE__*/ (0, _jsxRuntime.jsx)("button", {
-                className: "bg-green-100 p-2 m-5",
+                className: "bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 rounded-md p-2 m-5 ml-10",
                 onClick: handleClearCart,
                 children: "Clear Cart"
             }),
@@ -40108,7 +40105,7 @@ var _jsxRuntime = require("530eb49870f47cb4");
 const FoodItem = ({ cloudinaryImageId , name , category , price , type  })=>{
     // const { } = restaurent;
     return /*#__PURE__*/ (0, _jsxRuntime.jsxs)("div", {
-        className: "w-56 p-2 m-2 shadow-lg bg-yellow-50 h-76",
+        className: "w-56 p-2 m-2 shadow-lg bg-slate-100 h-76 text-black rounded-md ml-10",
         children: [
             /*#__PURE__*/ (0, _jsxRuntime.jsx)("h3", {
                 className: "font-bold text-2xl",
@@ -40116,6 +40113,7 @@ const FoodItem = ({ cloudinaryImageId , name , category , price , type  })=>{
             }),
             /*#__PURE__*/ (0, _jsxRuntime.jsxs)("h4", {
                 children: [
+                    "Category : ",
                     category,
                     " "
                 ]
@@ -40125,9 +40123,6 @@ const FoodItem = ({ cloudinaryImageId , name , category , price , type  })=>{
                     "Rupees : ",
                     price / 100
                 ]
-            }),
-            /*#__PURE__*/ (0, _jsxRuntime.jsx)("h4", {
-                children: type
             })
         ]
     });

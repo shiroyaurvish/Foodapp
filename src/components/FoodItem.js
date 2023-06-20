@@ -1,10 +1,10 @@
 import { CDN_URL } from "../contants";
 
-const FoodItem = ({ cloudinaryImageId, name, category, price,type }) => {
+const FoodItem = ({ cloudinaryImageId, name, category, price, type }) => {
   // const { } = restaurent;
 
   return (
-    <div className="w-56 p-2 m-2 shadow-lg bg-yellow-50 h-76">
+    <div className="w-56 p-2 m-2 shadow-lg bg-slate-100 h-76 text-black rounded-md ml-10">
       {/* <img
         className="res-logo"
         alt="res-logo"
@@ -12,10 +12,9 @@ const FoodItem = ({ cloudinaryImageId, name, category, price,type }) => {
       /> */}
       <h3 className="font-bold text-2xl">{name}</h3>
 
-      <h4>{category} </h4>
-      <h4>Rupees : {price/100}</h4>
-
-      <h4>{type}</h4>
+      <h4>Category : {category} </h4>
+      <h4>Rupees : {price / 100}</h4>
+      {/* <h4>{type}</h4> */}
     </div>
   );
 };

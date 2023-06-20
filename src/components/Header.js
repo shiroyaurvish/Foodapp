@@ -13,7 +13,7 @@ import { useSelector } from "react-redux";
 export const Title = () => {
   return (
     <a href="/">
-      <img data-testid="logo" alt="logo image" className="h-20 p-2 rounded-lg" src={Logo}></img>
+      <img data-testid="logo" alt="logo image" className="h-20 p-2 pl-10 rounded-lg" src={Logo}></img>
     </a>
   );
 };
@@ -28,11 +28,11 @@ const Header = () => {
 
   console.log("cart",cartItems)
   return (
-    <div className="flex  bg-black text-slate-100 h-20 shadow-lg">
-      <Title />
+    <div className="flex bg-gradient-to-r from-slate-950 to-blue-950 text-slate-100 h-20 shadow-lg">
+      <Title/>
 
       <div className="nav-items ">
-        <ul className="flex py-7 ">
+        <ul className="flex py-7">
           <li className="px-4 ">
             <Link to="/">Home</Link>
           </li>
@@ -46,7 +46,7 @@ const Header = () => {
           <li className="px-4">
             <Link to="/instamart">Instamart</Link>
           </li>
-          <li className="ml-[880px] px-4">
+          <li className="ml-[840px] px-4">
             <Link to="/Cart" data-testid="cart">Cart - {cartItems.length} Items</Link>
             </li>
         </ul>

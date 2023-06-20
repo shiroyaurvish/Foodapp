@@ -33,17 +33,17 @@ const RestaurentMenu = () => {
   return !restaurents ? (
     <Shimmer />
   ) : (
-    <div className="flex">
-      <div>
-        <h1>Restaurent id : {resId}</h1>
-        <h2>{restaurents.name}</h2>
-        <img
+    <div className="flex bg-gradient-to-r from-slate-950 to-blue-950 text-slate-100" >
+      <div className="ml-10">
+        {/* <h1>Restaurent id : {resId}</h1> */}
+        <h2 className="font-bold text-3xl text-center py-3 ">{restaurents.cards[0].card.card.info.name}</h2>
+        <img className="border border-black rounded-md"
           src={CDN_URL + restaurents.cards[0].card.card.info.cloudinaryImageId}
         />
         <h3>{restaurents.cards[0].card.card.info.city}</h3>
         <h3>{restaurents.cards[0].card.card.info.areaName}</h3>
         <h3>{restaurents.cards[0].card.card.info.avgRating} Stars</h3>
-        <h3>{restaurents.cards[0].card.card.info.costForTwoMessage} Stars</h3>
+        <h3>{restaurents.cards[0].card.card.info.costForTwoMessage} Items</h3>
         {/* <h3>{restaurents.cards[2].groupedCard.cardGroupMap.REGULAR.cards[4].card.card.[0].card.info}</h3> */}
       </div>
       {/* <div>
@@ -52,9 +52,9 @@ const RestaurentMenu = () => {
         </button>
       </div> */}
       <div className="p-5">
-        <h1 >Menu</h1>
-        <ul data-testid="menu">
-          {Object.values(restaurents?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR?.cards[4]?.card?.card?.itemCards).map((item)=>(<li key={item?.card?.info?.id}>{item?.card?.info?.name} - <button data-testid="addBtn" className="p-1 bg-green-300" onClick={()=>addFoodItem(item)}>Add</button></li>))}
+        <h1 className="font-bold text-xl pt-8">Menu:</h1>
+        <ul data-testid="menu" className="grid grid-cols-2 gap-x-10">
+          {Object.values(restaurents?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR?.cards[4]?.card?.card?.itemCards).map((item)=>(<li  className="pt-2" key={item?.card?.info?.id}>{item?.card?.info?.name} - <button data-testid="addBtn" className="p-1 bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 rounded-md" onClick={()=>addFoodItem(item)}>Add</button></li>))}
         </ul>
       </div>
     </div>

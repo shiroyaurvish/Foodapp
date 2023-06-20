@@ -25,6 +25,7 @@ const Body = () => {
   async function getRestaurents() {
     const data = await fetch(
       "https://www.swiggy.com/dapi/restaurants/list/v5?lat=21.1702401&lng=72.83106070000001&page_type=DESKTOP_WEB_LISTING"
+      
     );
     const json = await data.json();
 
@@ -53,12 +54,13 @@ const Body = () => {
     <Shimmer />
   ) : (
     <>
-      <div className="search-container p-5 bg-green-100 my-5">
+    <div className="bg-gradient-to-r from-slate-900 to-blue-950">
+      <div className="ml-5 ">
         <input
         data-testId="search-input"
           type="text"
-          placeholder="Search The Restaurent"
-          className="focus:bg-pink-100 m-2 p-2"
+          placeholder="Search the Restaurent"
+          className=" m-2 p-2 w-80 rounded-md border border-black ml-5"
           value={searchInput}
           onChange={(e) => {
             setSearchInput(e.target.value);
@@ -70,7 +72,7 @@ const Body = () => {
           // style={{
           //   backgroundColor : "green"
           // }}
-          className="search-btn p-2 m-2 bg-purple-900  hover:bg-gray-500 text-white rounded-md"
+          className="search-btn p-2 m-2 bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 rounded-md"
           onClick={() => {
             //filter data
             // console.log("searchInput===>",searchInput)
@@ -95,7 +97,7 @@ const Body = () => {
           })
         }}></input> */}
       </div>
-      <div className="flex flex-wrap" data-testid="res-list">
+      <div className="flex flex-wrap ml-8" data-testid="res-list">
         {filteredRestaurents.map((restaurent) => {
           return (
             <Link to={"/restaurent/" + restaurent.data.id} key={restaurent.data.id}>
@@ -103,6 +105,7 @@ const Body = () => {
             </Link>
           );
         })}
+      </div>
       </div>
     </>
   );
