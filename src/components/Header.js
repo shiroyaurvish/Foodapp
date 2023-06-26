@@ -28,7 +28,7 @@ const Header = () => {
 
   console.log("cart",cartItems)
   return (
-    <div className="flex bg-gradient-to-r from-slate-950 to-blue-950 text-slate-100 h-20 shadow-lg">
+    <div className="flex bg-gradient-to-r from-slate-950 to-blue-950 text-slate-100 h-20 shadow-lg sticky top-0">
       <Title/>
 
       <div className="nav-items ">

@@ -4,7 +4,7 @@ const FoodItem = ({ cloudinaryImageId, name, category, price, type }) => {
   // const { } = restaurent;
 
   return (
-    <div className="w-56 p-2 m-2 shadow-lg bg-slate-100 h-76 text-black rounded-md ml-10">
+    <div className="w-56 p-2 m-2 shadow-lg bg-slate-100 h-76 text-black rounded-md ml-10 ">
       {/* <img
         className="res-logo"
         alt="res-logo"

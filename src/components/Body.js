@@ -54,8 +54,8 @@ const Body = () => {
     <Shimmer />
   ) : (
     <>
-    <div className="bg-gradient-to-r from-slate-900 to-blue-950">
-      <div className="ml-5 ">
+    <div className="bg-gradient-to-r from-slate-900 to-blue-950 min-h-full">
+      <div className="ml-5  ">
         <input
         data-testId="search-input"
           type="text"
@@ -97,7 +97,7 @@ const Body = () => {
           })
         }}></input> */}
       </div>
-      <div className="flex flex-wrap ml-8" data-testid="res-list">
+      <div className="flex flex-wrap ml-8 " data-testid="res-list">
         {filteredRestaurents.map((restaurent) => {
           return (
             <Link to={"/restaurent/" + restaurent.data.id} key={restaurent.data.id}>

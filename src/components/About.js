@@ -32,7 +32,7 @@ class About extends React.Component {
   render() {
     // console.log("p- render");
     return (
-      <div>
+      <div className="">
         <h1>This is About page</h1>
         <UserContext.Consumer>
           {/* {(value)=>{console.log(value)}} */}
