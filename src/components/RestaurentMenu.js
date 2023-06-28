@@ -54,7 +54,7 @@ const RestaurentMenu = () => {
       <div className="p-5">
         <h1 className="font-bold text-xl pt-8">Menu:</h1>
         <ul data-testid="menu" className="grid grid-cols-2 gap-x-10">
-          {Object.values(restaurents?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR?.cards[4]?.card?.card?.itemCards).map((item)=>(<li  className="pt-2" key={item?.card?.info?.id}>{item?.card?.info?.name} - <button data-testid="addBtn" className="p-1 bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 rounded-md" onClick={()=>addFoodItem(item)}>Add</button></li>))}
+          {Object.values(restaurents?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR?.cards[4]?.card?.card?.itemCards).map((item)=>(<li  className="pt-2" key={item?.card?.info?.id}><img className="w-52 rounded-lg" src={CDN_URL+item?.card?.info?.imageId}></img>{item?.card?.info?.name} - <button data-testid="addBtn" className="p-1 bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 rounded-md" onClick={()=>addFoodItem(item)}>Add</button></li>))}
         </ul>
       </div>
     </div>

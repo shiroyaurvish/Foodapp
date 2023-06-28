@@ -5,6 +5,7 @@ import useOnline from "./utils/useOnline";
 import UserContext from "./utils/UserContext";
 import { useSelector } from "react-redux";
 
+
 // const loggedInUser = () => {
 //   //API Call to Check Authentication
 //   return true;
@@ -21,12 +22,13 @@ export const Title = () => {
 const Header = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(true);
   const isOnline =useOnline();
+  
 
   const {user} = useContext(UserContext)
 
   const cartItems = useSelector(store => store.cart.items);
 
-  console.log("cart",cartItems)
+  // console.log("cart",cartItems)
   return (
     <div className="flex bg-gradient-to-r from-slate-950 to-blue-950 text-slate-100 h-20 shadow-lg sticky top-0">
       <Title/>

@@ -13,7 +13,7 @@ class Profile extends React.Component {
       },
     };
 
-    console.log("c- constructor called" + this.props.name);
+    console.log("c- constructor called " + this.props.name);
   }
 
   async componentDidMount() {

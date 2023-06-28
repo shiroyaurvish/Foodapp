@@ -40,7 +40,7 @@ const Body = () => {
     return<h1>🔴 Your'e Now offline.. Check Your Internet Connection!!!!</h1>
   }
 
-  console.log("render");
+  // console.log("render");
 
 
 
