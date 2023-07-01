@@ -10,11 +10,11 @@ const Profile = (props) => {
         const timer = setInterval(()=>{
             console.log("REct call..")
         },1000);
-        console.log("use effect")
+        // console.log("use effect")
 
         return ()=>{
             clearInterval(timer);
-            console.log("useeffect return")
+            // console.log("useeffect return")
         };
 
     },[])

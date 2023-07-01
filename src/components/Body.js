@@ -29,9 +29,19 @@ const Body = () => {
     );
     const json = await data.json();
 
+    // const filjson = json?.data?.cards[2]?.data?.data?.cards.filter((obj)=>{
+    //   // console.log(obj.data.name)
+    //   if(obj.data.name === "Burger Hut"){
+    //     obj.data.name = "Urvish"
+    //   } 
+      
+    // })
+    // console.log(filjson)
+
     //optional chaining use
     setAllRestaurents(json?.data?.cards[2]?.data?.data?.cards);
     setFilteredRestaurents(json?.data?.cards[2]?.data?.data?.cards);
+    
   }
 
   const isOnline = useOnline();
